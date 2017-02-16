@@ -9,7 +9,7 @@ app.use(express.static(publicPath));
 
 
 //listen for requests
-app.listen(3000, () => {
+app.listen(port, () => {
 	console.log(`Started up at port ${port}`);
 });
 
