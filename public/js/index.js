@@ -15,5 +15,5 @@ var socket = io();
 
 
 		socket.on('newMessage', function (message) {
-			console.log('New Message:', message);
+			console.log('NewMessage:', message);
 		});
