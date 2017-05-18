@@ -1,5 +1,6 @@
 var socket = io();
 
+//This functon scrolls down so that new messages can be seen
 function scrollToBottom () {
 	// Selectors
 	var messages = jQuery('#messages');
